@@ -11,4 +11,4 @@ bonus = df["Bonus"]
 # for each person in file, print first, last, salary and bonus
 for i in range(0, len(firstnames)):
     print(
-        f'{firstnames[i]} {lastnames[i]} has a salary of {salary[i]} and a bonus of {bonus[i]}')
+        f'{firstnames[i]} {lastnames[i]} has a salary of {salary[i]} and a bonus of {bonus[i]} with a total of {(salary[i]*bonus[i])+salary[i]}')
